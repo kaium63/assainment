@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ .contener{
+    padding: 50px;
+    display: block;
+    
+ }
+.img{ 
+
+    background-image: url("/images/banner/banner2.png");
+    width: 110%;
+    height: 100vh;
+    background-repeat: no-repeat;
+   
+    
+}
+.banner-title{
+    font-size: 55px;
+   padding-bottom: 30px;
+}
+.banner-detail{
+    text-align: right;
+   align-items: right;
+   margin-right: 200px;
+   width: 530px;
+   position: absolute;
+   right: 10px;
+   padding: 50px;
+   top: 50%;
+   bottom:50%
+   
+}
+.button{
+    border-radius: 5px;
+    text-align: right;
+}
+.img-detail{
+    padding-top: 100px;
+    margin-top: 50px;
+   
+}
+/*     My failures of previous year  */
+.section-contener{
+    display: flex;
+    gap: 200px;
+    
+}
+.text-sub-item{
+    padding-top: 300px;
+}
+.text-item{
+    width: 400px;
+    height: 100%;
+    text-align: left;
+
+}
+ul{
+    padding-top: 20px;
+}
+.text-sub-item{
+    font-size: 40px;
+    
+}
+.text-plans{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+
+.plans-icon{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin: 0px 200px;
+    justify-content: space-between;
+}
+/* watch section */
+.watch{
+    background-image: url(/images/watch.png);
+    width: 1140px;
+    height: 300px;
+    font-size: 40px;
+    margin-left:170px ;
+    padding:50px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    margin-top:50px ;
+   
+} 
+footer{
+    width: 1600px;
+    height: 577px;
+    background-color: rgba(26, 25, 25, 0.969);
+    
+}
+.image{
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.footer-text{
+    color: aliceblue;
+    margin-left: 50px;
+  
+    width: 400px;
+ 
+}
+.head-text{
+    margin-left: 50px;
+    color: white;
+  
+
+}
+.footer-contener{
+    padding-top:50px ;
+
+}
+  .input{
+    margin-left: 1200px;
+    align-items: center;
+  }
+ 
+   
+input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    border: 10px;
+    border-radius: 5px;
+
+}
+button{
+    padding: 15px 80px;
+    border: 10px;
+    border-radius: 5px;
+    background-color: rgb(224, 35, 35);
+}
